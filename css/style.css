@@ -1,0 +1,1176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    outline: none;
+    border:none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+/*  https://www.ayushshah.in/work/old-portfolio/index.html */
+
+button{
+    font-family: 'Poppins', sans-serif;
+}
+
+html,body{
+    height: 100%;
+}
+
+
+html{
+    --stylecolor:#FFE400;
+    --stylecolor2:#000;
+    --stylecolor3:#fff;
+    --stylecolor4:#474747;
+     font-size: 62.5%;
+     overflow-x: hidden;
+}
+
+
+body{
+    background-color: var(--stylecolor2);
+    color: var(--stylecolor);
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    padding-left: 35rem;
+}
+
+
+/*  header start */
+
+header{
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 1000;
+    height:100%;
+    width:35rem;
+    align-items: center;
+    background: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+}
+
+
+header  .user img{
+    height:17rem;
+    width:17rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: .7rem solid var(--stylecolor);
+}
+
+header .user .name{
+    font-size: 3.5rem;
+    color:#fff;
+}
+
+header .user .post{
+    font-size: 1.5rem;
+    color:#fff;
+    margin-top: 0.5rem;
+}
+
+header .navbar{
+    width:100%;
+
+}
+
+header .navbar ul{
+    list-style: none;
+    padding: 1rem 3rem;
+}
+
+header .navbar ul  li a{
+    display: block;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    font-size: 2rem;
+    background: #333;
+    color:#fff;
+    border-radius: 5rem;
+    font-weight: 200;
+}
+
+
+header .navbar ul  li a:hover{
+    background: var(--stylecolor);
+}
+
+/* header ends  */
+
+#menu{
+    position: fixed;
+    top:2rem;
+    right: 2rem;
+    color:#fff;
+    cursor: pointer;
+    font-size: 2.5rem;
+    padding: 1rem 1.5rem;
+    z-index: 10000;
+    background: #333;
+    display: none;
+}
+
+/*  Home section starts */
+section{
+    min-height: 100vh;
+    padding: 1rem;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding: 0 15rem;
+
+}
+
+.home h4{
+    font-size: 2rem;
+    color:#fff;
+    text-transform: none;
+}
+
+.home h1{
+    font-size: 5rem;
+    color:var(--stylecolor);
+    padding: 1.6rem 0;
+}
+
+
+.home p{
+    font-size: 1.8rem;
+    color:#fff;
+    font-weight: 600;
+     padding: 2rem 0;
+    text-transform: none;
+    line-height: 22px;
+}
+
+
+.home p b{
+    color:var(--stylecolor);
+}
+
+
+.button {
+    border: 0;
+    border-radius: 20px;
+    background-color: var(--stylecolor);
+    padding: 10px;
+    font-size: 1.7rem;
+    transition: 0.1s;
+    margin: 20px 10px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 900;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    transition: all .2s linear;
+   
+}
+
+.button:hover{
+    transform: scale(1.1);
+
+}
+
+/*  Home section ends */
+.heading{
+    text-align: center;
+    margin: 0 6rem;
+    font-size: 5.5rem;
+    padding: 3rem;
+    color: #fff;
+    margin-top: 3rem;
+}
+
+.heading span{
+    color: var(--stylecolor);
+
+}
+
+/* home ends  */
+
+/* about starts */
+ .about .row{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0;   
+}
+
+.about .details{
+    padding: 2rem 1rem;
+    padding-left: 6rem;  
+    font-size: 3rem;
+    color:#fff;
+
+}
+
+.about  .details1{
+    width:20%;
+    padding: 2rem 1rem;
+    padding-left: 6rem;  
+}
+
+.about  .details2{
+    width:30%;
+    padding: 2rem 1rem;
+    padding-left: 6rem;    
+}
+
+.about  .details1 p{
+  font-size: 1.6rem;
+  color: #fff;
+  padding: 1rem 0; 
+  font-weight: normal;
+}
+
+.about  .details2 p{
+    font-size: 1.7rem;
+    color: #fff;
+    padding: 1rem 0; 
+    font-weight: normal;
+    position: relative;
+    top:-2.6rem;
+  }
+
+
+.about  .counter{
+    width:50%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.about .counter .box{
+ width:20rem;
+ background: #222;
+ text-align: center;
+ padding: 4rem 2rem;
+ border: 1px solid  #fff;
+ position: relative;
+ top:-2.6rem;
+}
+
+.about  .counter .box  h2{
+    font-size: 3.4rem;
+    color: var(--stylecolor);
+   
+}
+
+.about  .counter .box h3{
+    font-size: 2rem;
+    color: #fff;
+    padding: 1rem;
+}
+
+
+.details1 #button1{
+    border: 0;
+    border-radius: 20px;
+    background-color: var(--stylecolor);
+    padding: 10px;
+    font-size: 1.3rem;
+    transition: 0.1s;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 900;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    transition: all .2s linear;
+
+}
+
+
+/* about ends  */
+
+/*   skill-section starts */
+.heading1{
+    text-align: center;
+    margin: 0 6rem;
+    font-size: 3rem;
+    padding: 3rem;
+    color: #fff;
+    font-weight: 600;
+}
+
+.heading1 span{
+    text-transform: uppercase;
+}
+
+.skill-section .row{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0; 
+}
+
+ .progress-bar{
+    width:50%;
+    padding: 4rem 4rem;
+    padding-left: 6rem; 
+}
+
+.progress-bar .skill-box{
+    width:100%;
+    margin: 20px 0;
+    position: relative;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+    background:var(--stylecolor4);
+    border-radius: 6px;
+    padding: 1rem 1rem;
+}
+
+.progress-bar .skill-box .title{
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--stylecolor3);
+}
+
+.progress-bar .skill-bar{
+    height: 9px;
+   width: 100%;
+   background: var(--stylecolor2);
+   border-radius: 6px;
+   margin-top: 6px;
+}
+
+.skill-bar .skill-per{
+    position: relative;
+    display: block;
+    width: 90%;
+    height: 100%;
+    border-radius: 6px;
+   background: var(--stylecolor);
+}
+.skill-bar .skill-per.css{
+    width:80%;
+
+}
+
+.skill-bar .skill-per.Bootstrap{
+    width:70%;
+
+}
+.skill-bar .skill-per.javascript{
+    width:70%;
+
+}
+.skill-bar .skill-per.jquery{
+    width:50%;
+
+}
+.skill-bar .skill-per.sass{
+    width:95%;
+
+}
+
+.skill-box .tooltip{
+    position: absolute;
+    right: -14px;
+    top:-28px;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--stylecolor3);
+}
+
+/*   skill-section ends */
+
+/*   education starts   */
+.education .row{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0;  
+
+}
+
+.row .box-container{
+    width:45%;
+    padding: 4rem 1rem;
+    padding-left: 6rem; 
+  
+}  
+
+.education .box-container .box{
+    padding-left: 4rem;
+    border-left: .1rem solid #fff;
+    position: relative;
+}
+
+
+.education .box-container .box  span{
+    font-size: 1.7rem;
+    color:#ffff;
+    font-weight: 600;
+    background-color: var(--stylecolor4);
+    margin-left: 0px;
+    background-color: gray;
+    padding: 3px 10px;
+    border-radius: 40px;
+}
+
+
+.education .box-container .box h1, .education .box-container .box h2{
+    font-size: 1.9rem;
+    color:var(--stylecolor);
+    font-weight: 600;
+    padding-left: 0px;
+    padding-top: 1rem;
+   
+   
+}
+
+
+.education .box-container .box p,.education .box-container .box h6{
+    font-size: 1.6rem;
+    color:#ffff;
+    font-weight: 200;
+    padding-left: 0px;
+    margin: 0rem 0rem;
+    margin-bottom: 1rem;
+   
+}
+
+
+.education .box-container .box i{
+    position: absolute;
+    top:-1.5rem;
+    left:-2.5rem;
+    height: 5rem;
+    width:5rem;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 5rem;
+    font-size: 2.5rem;
+    color: var(--stylecolor2);
+    background-color: var(--stylecolor);
+}
+
+#box-cotainer1{
+    width:55%;
+
+}
+
+/*   educationvvends */
+
+
+/*   contant section starts   */
+.contact .row{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0;
+
+}
+.row .contant-section{
+    width:45%;
+    padding: 4rem 1rem;
+    padding-left: 6rem;
+    padding-top: 3rem;
+  
+}
+
+.row #contant-section1{
+    width:55%;
+
+}
+
+.contant-section .form h2{
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 700;
+
+}
+
+.contant-section .form p{
+    font-size: 1.7rem;
+    color: #fff;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin: 1.8rem  0rem;
+
+}
+
+.contant-section .form h4{
+    font-size: 1.7rem;
+    color: #fff;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 1.5rem  0rem;
+
+}
+
+.contant-section .form h4 a{
+    font-size: 1.7rem;
+    color:var(--stylecolor);
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 1.5rem  0rem;
+
+}
+
+.contant-section .form h4 span{
+    font-size: 2.4rem;
+    color:var(--stylecolor);
+    font-weight: 700;
+    text-transform: capitalize;
+
+}
+
+.contant-section .form i{
+    width:50px;
+    height:50px;
+    font-size: 2.4rem;
+    color:var(--stylecolor);
+    font-weight: 700;
+    text-transform: capitalize;
+    background: var(--stylecolor4);
+    border-radius: 100%;
+    text-align: center;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    margin-left: 1.5rem;
+
+}
+
+.contant-section .form i:hover{
+transform: scale(1.1);
+ 
+
+}
+
+.contant-section .flexbox{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ 
+}
+
+.contant-section .flexbox input{
+    width:48%;
+    
+}
+
+
+.contant-section input{
+    width:90%;
+    line-height: 4rem;
+    padding-left: 1rem;
+    background-color: #404040;
+    border: 0;
+    color: #fff;
+}
+.contant-section .input:hover{
+    background-color: #404040;
+}
+
+.contant-section textarea{
+    width:90%;
+    margin-top: 3rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    background-color: #404040;
+    border: 0;
+    color: #fff;
+}
+
+.row #contant-section1   .input1{
+    margin-top: 3rem;
+
+}
+
+.contant-section  .button{
+    width: 60%;
+    height: 15%;
+}
+
+.contant-section .button{
+    border-radius: 10px;
+    padding: 0px;
+    background: var(--stylecolor);
+    color:#000;
+    transition: all .2s linear;
+}
+
+/*   contant section ends   */
+
+
+/*   project starts   */
+.project-section  .row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    padding: 4rem;
+
+}
+
+.project-section .row .port{
+    width:46%;
+    border-radius: 1rem;
+    overflow: hidden;
+    cursor: pointer;
+    margin-top: 20px;
+    position: relative;
+    transition: 0.4s;
+    margin-top: 5rem;
+    margin: 1rem;
+   
+}
+
+
+.project-section .row .port img{
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+.middle{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    padding-left: 4rem;
+    background-color: var(--stylecolor);
+    font-size: 3rem;
+    color: var(--stylecolor2);
+    transform: translateY(100%);
+    transition: .5s;
+  
+
+}
+
+.project-section .row .port:hover .middle{
+    opacity: .8;
+    transform: translateY(0%);
+
+}
+
+.port h4{
+    text-align: center;
+    font-size: 2rem;
+    color: #ffff;
+    font-weight: 700;
+    margin-top: 0.8rem;
+
+}
+
+.port:hover h4{
+    display: none; 
+ }
+
+ .text{
+     margin: 60px 50px;
+ 
+ }
+ .text a{
+    
+     color: var(--stylecolor2);
+     font-size: 3rem;
+     font-weight: 800;
+ }
+ .text p{
+     font-size: 1.4rem;
+     text-align: left;
+     padding: 10px;
+ }
+ .skills-used li{
+     font-size: 1.4rem;
+     text-align: left;
+     color: #000;
+     font-weight: 600;
+     margin-top: 1rem;
+ }
+
+
+ .skills-used optgroup[label]{
+     font-size: 1rem;
+ }
+
+ .skills-used h6{
+     text-align: left;
+     font-size: 1.9rem;
+     margin: 1rem  0rem;
+     margin-bottom: 0.9rem;
+     font-weight: 800;
+ }
+
+
+/* loader section starts  */
+.loader{
+    position: fixed;
+    top:0; left:0;
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+    width:100%;
+    background-color:var(--stylecolor2);
+  }
+
+  .loader h1{
+    font-size: 3rem;
+  }
+  
+  .loader.fade-out{
+    top:-120%;
+  }  
+  
+
+@media only screen and (max-width:1367px){
+    .about  .details1{
+        width:50%;
+        padding-left: 7rem;   
+    }
+    
+    .about  .details2{
+        width:50%;
+        padding-left: 3rem;   
+    }
+
+    .about  .details1 p{
+        font-size: 2.3rem;
+      }
+      
+      .about  .details2 p{
+          font-size: 2.3rem;
+          position: relative;
+          top:-3rem;
+        }
+
+
+    .about  .counter{
+        width:100%;
+        justify-content: left;
+        padding-left: 6rem;
+        padding-top: 3rem;
+    }
+
+    .about .counter .box{
+        width:30rem;
+        padding: 6rem 2rem;
+        position: relative;
+        top:-0rem;
+       }
+
+       .about  .counter .box  h2{
+        font-size: 3.5rem;
+       
+    }
+    
+    .about  .counter .box h3{
+        font-size: 2.5rem;
+    }
+
+    .about .details{
+        margin-top: 2rem;
+        padding: 3rem 1rem;
+        font-size: 4rem;
+        padding-left: 6rem;  
+}
+
+.details1 #button1{
+        font-size: 1.5rem;
+        padding: 12px;
+        font-size: 1.7rem; 
+    }
+
+    #heading1{ 
+        margin-top: 5rem;
+    }
+
+    .row .contant-section{
+        width:50%;
+        margin-top: 10rem;
+      
+    }
+    
+    .row #contant-section1{
+        width:50%;
+    
+    }
+
+    .contant-section .form p{
+        font-size: 1.6rem;
+    
+    }
+
+    .contant-section .form h4{
+        font-size: 1.7rem;
+        color: #fff;
+        font-weight: 700;
+        text-transform: capitalize;
+        margin: 1.5rem  0rem;
+    
+    }
+    
+    .contant-section .form h4 a{
+        font-size: 1.7rem;
+        color:var(--stylecolor);
+        font-weight: 700;
+        text-transform: capitalize;
+        margin: 1.5rem  0rem;
+    
+    }
+    
+    .contant-section .form h4 span{
+        font-size: 2.2rem;
+    
+    }
+    
+    .contant-section .form i{
+        font-size: 2.2rem;
+        padding-top: 1.2rem;
+    
+    }
+
+}
+
+/* medai  */
+
+@media only screen and (max-width:1200px){
+    html{
+
+         font-size: 55%;
+    }
+
+    .home{
+        padding: 1rem 4rem;
+    }
+}
+
+
+
+@media only screen and (max-width:991px){
+    header{
+         left:-120%;
+    }
+
+    #menu{
+        display: block;
+    }
+
+    header.toggle{
+        left:0%;
+    }
+
+    body{
+        padding: 0;
+    }
+}
+
+
+@media only screen and (max-width:661px){
+    .about  .details1 p{
+        font-size: 1.6rem;
+      }
+      
+      .about  .details2 p{
+          font-size: 1.6rem;
+        
+        }
+        .details1 #button1{
+            padding: 10px;
+            font-size: 1.3rem;
+        
+        }
+        .about  .counter{
+            width:100%;
+            justify-content: center;
+            padding-left: 0rem;
+        }
+    
+        .about .counter .box{
+            width:20rem;
+            padding: 5rem 2rem;
+            position: relative;
+            top:-0rem;
+           }
+
+           .about  .counter .box  h2{
+            font-size: 2rem;
+        }
+
+        
+        .about  .counter .box h3{
+            font-size: 2rem;
+          }
+
+          .project-section .row{
+            padding: 3rem;
+        
+        }
+    }
+
+
+@media only screen and (max-width:457px){
+    .about  .details1 p{
+        font-size: 1.4rem;
+      }
+      
+      .about  .details2 p{
+          font-size: 1.4rem;
+        
+        }
+
+        .about .details{
+            font-size: 3rem;  
+    }
+
+    .heading {
+        font-size: 5rem;
+      
+    }  
+}
+
+
+@media only screen and (max-width:768px){
+    html{
+        
+        font-size: 50%;
+    }
+
+    .row .contant-section{
+        width:100%;
+        padding: 0rem  5rem;
+    
+    }
+    .row #contant-section1{
+        width:100%;
+    
+    }
+
+    .contant-section .flexbox input{
+        width:100%;
+        margin-top: 3rem;
+        
+    }
+    .contant-section .flexbox{
+        width: 100%;
+    }
+
+    .contant-section input{
+        width:100%;
+        line-height: 6rem;
+
+    }
+
+    .contant-section textarea{
+        width:100%;
+    
+
+    }
+    #heading1{ 
+        margin-top: 10rem;
+    }
+
+    .contant-section .form p{
+        font-size: 2rem;
+    
+    }
+
+    .contant-section .form h4{
+        font-size:2.4rem;
+        margin: 1.5rem  0rem;
+    
+    }
+    .contant-section .form h2 {
+        font-size:3rem;
+    }
+    
+    .contant-section .form h4 a{
+        font-size: 1.7rem;
+        margin: 1.5rem  0rem;
+    
+    }
+    
+    .contant-section .form i{
+        font-size: 2.4rem;
+        padding-top: 1.4rem;
+    
+    }
+
+    .row .box-container{
+        width:100%;
+    }  
+
+    #box-cotainer1{
+        width:100%;
+        padding: 0rem  5rem;
+    
+    }
+
+    .education .box-container .box h1, .education .box-container .box h2{
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 40px;
+    }
+    
+    .education .box-container .box p,.education .box-container .box h6{
+        font-size: 1.7rem;
+        font-weight: 400;
+}
+
+
+.heading1 {
+    font-size: 2.7rem;
+}
+
+.project-section .row{
+    padding: 2rem;
+
+}
+
+.project-section .row .port{
+    width:100%;
+    padding-left: 0rem;
+  
+}
+.progress-bar{
+    width:100%;
+    padding: 0rem 2rem;
+    padding-left: 2rem; 
+    
+}
+
+}
+
+
+@media only screen and (max-width:400px){
+    header{
+        width:100vw;
+    }
+
+    .contant-section .form p{
+        font-size: 1.9rem;
+    
+    }
+
+    .heading1 {
+        font-size: 1.4rem;
+    }
+
+    .text{
+        margin: 20px 50px;
+    
+    }
+
+    .skills-used li{
+        font-size: 1.2rem;
+        margin-top: 0.8rem;
+    }
+   
+   
+    .skills-used h6{
+        text-align: left;
+        font-size: 1.6rem;
+        margin: 0.5rem  0rem;
+        margin-bottom: 0.5rem;
+        font-weight: 800;
+    }
+    .heading1 {
+        font-size: 2rem;
+    }
+
+    .about  .details1{
+        width:50%;
+        padding-left: 2rem;   
+    }
+    
+    .about  .details2{
+        width:50%;
+        padding-left: 1rem;   
+    }
+    .about .details1 p {
+        font-size: 1.2rem;
+    }
+
+    .about .details2 p {
+        font-size: 1.2rem;
+    }
+
+}
+
+
+@media only screen and (max-width:500px){
+    header{
+        width:100vw;
+    }
+
+    .contant-section .form p{
+        font-size: 1.6rem;
+    
+    }
+
+    .contant-section .form h2 {
+        font-size: 2.4rem;
+    }
+
+    .contant-section .form h4 {
+        font-size: 2rem;
+        margin: 1rem  0rem;
+    }
+
+    .row .contant-section {
+        margin-top: 4rem;
+    }
+
+    .education .box-container .box h1, .education .box-container .box h2{
+        font-size: 1.7rem;
+        font-weight: 400;
+        line-height: 25px;
+
+    }
+    
+    .education .box-container .box p,.education .box-container .box h6{
+        font-size: 1.2rem;
+        font-weight: 400;
+}
+.heading {
+    font-size: 4rem;
+}
+}
+@media(max-width:290px){
+    .about  .details1{
+        width:50%;
+        padding-left: 2rem;   
+    }
+    
+    .about  .details2{
+        width:50%;
+        padding-left: 0rem;   
+    }
+    .about .details1 p {
+        font-size: 1rem;
+    }
+
+    .about .details2 p {
+        font-size: 1rem;
+    }
+
+}

@@ -1,0 +1,1767 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    transition: all ease-in 0.3s linear;
+}
+
+
+html{
+    --stylecolor:#1977cc;
+    --stylecolor2:#444444;
+    --stylecolor3:#2c4964;
+     font-size: 62.5%;
+     overflow-x: hidden;
+}
+ 
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.inner{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+/*  navbar  starts  */
+.logo   i {
+        font-size: 1.6rem;
+        font-weight: 200;
+        color:var(--stylecolor2)
+}   
+
+.logo   i  span{
+   color:var(--stylecolor)
+}   
+
+.master .right-sides span{
+    padding-left:1.4rem;
+    font-size: 1.6rem;
+    color:var(--stylecolor2);
+   
+}  
+
+header{
+    position: fixed;
+    left:0;
+    right:0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 2rem 9%;
+    transition: all 0.5s;
+    z-index: 997;
+    top: 50px;
+    box-shadow: 0px 2px 15px rgb(25 119 204 / 10%);
+}
+
+header .user{
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+header .navbar  ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+header .navbar a{
+    font-size: 1.6rem;
+    margin-left: 2rem;
+    color:var(--stylecolor3);
+    text-transform: capitalize;
+    transition: all 0.3s;
+
+}
+
+header .navbar a:hover{
+    color:var(--stylecolor)
+}
+
+#menu{
+   font-size: 2rem;
+   cursor: pointer;
+   color:var(--stylecolor2);
+   border-radius: .3rem;
+   padding: .5rem 1.5rem;
+   display: none;
+}
+
+#container{
+    width: 100%;
+    height: 90vh;
+    background-image: url(../img/hero-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#container .heading{
+   
+}
+
+#container .heading h1{
+  font-size: 4.5rem;
+  color:var(--stylecolor3);
+  margin-top: 15rem;
+}
+
+#container .heading h2{
+    font-size:2.3rem;
+    color:var(--stylecolor3);
+    margin-top: 1rem;
+    font-weight: 300;
+}
+
+.More{
+    width:17rem;
+    height: 4rem;
+    margin-top: 4rem;
+    border: none;
+    background-color: var(--stylecolor);
+    border-radius: 50px;
+    color:#fff;
+    font-family: "Raleway", sans-serif;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+
+.sticky{
+    position: fixed;
+    top:0;
+    width:100%;
+    transition: all 0.3s;
+}
+
+#scroll-top{
+    position: fixed;
+    top:-120%;
+    right:2rem;
+    padding: .5rem 1.5rem;
+    font-size: 2rem;
+    color:#fff;
+    border-radius: .5rem;
+    background-color: var(--stylecolor);
+    transition: 0.5s linear;
+}
+
+#scroll-top.active{
+    top:calc(100% - 12rem);
+}
+  
+
+/*   navbar  ends    */
+
+/*   choose-section starts  */
+
+.choose-section{
+    width:100%;
+}
+
+.choose-section  .four-section1{
+    width:32%;
+    background-color: var(--stylecolor);
+    padding: 30px;
+    position: relative;
+    top:-120px;
+    border-radius: 10px;
+}
+
+ .four-section1 h1{
+    font-size: 3rem;
+    color: #fff;
+     font-weight: 700;
+     line-height: 40px;
+     padding:1rem  1rem;
+
+}
+
+ .four-section1 p{
+    font-size: 1.5rem;
+    color:#fff;
+    padding: 2rem 1rem;
+    line-height: 22px;
+   
+}
+
+.More1{
+    width:17rem;
+    height: 4rem;
+    margin-top: 0rem;
+    border: none;
+    border-radius: 50px;
+    color:#fff;
+    font-family: "Raleway", sans-serif;
+    display: inline-block;
+    transition: 0.3s;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.More1:hover{
+    background: #fff;
+    color:var(--stylecolor)
+}
+
+.choose-section  .four-section{
+    width:20%;
+    height: 300px;
+    transition: all 0.5s;
+    background: #fff;
+    box-shadow: 0px 2px 15px rgb(25 119 204 / 10%);
+    padding: 0rem 3rem;
+    text-align: center;
+    position: relative;
+    top:-100px;
+    border-radius: 10px;
+   
+}
+
+.four-section i{
+    font-size: 3rem;
+    color: var(--stylecolor);
+    margin-top: 50px;
+}
+
+.four-section h1{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 2.5rem;
+
+}
+
+ .four-section p{
+    font-size: 1.5rem;
+    line-height: 22px;
+    color:var(--stylecolor2);
+    font-weight: 500;
+    margin-top: 1.6rem;
+   
+}
+
+/*   choose-section ends */
+
+/*  video  starts  */
+.video-section{
+    width:100%;
+    position: relative;
+  
+}
+
+.video-section .video-box{
+    width: 37%;
+    height: 100vh;
+    background-image: url(../img/about.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+
+.clip{
+    width:100%;
+    height:100vh;
+    background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999999;
+}
+
+.clip iframe{
+    width: 90%;
+    max-width: 500px;
+}
+
+.clip span{
+    position: absolute;
+    left: 95%;
+    bottom: 0;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+    color:#fff;
+    cursor: pointer;
+}
+
+
+.btn{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    cursor: pointer;
+}
+
+ .btn.active .play{
+     background-color: var(--stylecolor);
+ }
+
+.btn  .play{
+    width:94px;
+    height: 94px;
+    position: absolute;
+    background: radial-gradient(#1977cc 50%, rgba(25, 119, 204, 0.4) 52%);
+    border-radius: 50%;
+    display: block;
+    overflow: hidden;
+    left: calc(50% - 47px);
+    top: calc(50% - 47px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.btn .play::before{
+    content: "";
+    position: absolute;
+    border: 25px solid  #ffff;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 0px solid transparent;
+    transform: translateX(5px);
+}
+
+.video-section .text-section{
+    width: 60%;
+    margin-top: 50px;
+}
+
+.video-section .text-section h1{
+    font-size: 3rem;
+}
+
+.video-section .text-section p{
+    margin-top: 2rem;
+    font-size: 1.6rem;
+    line-height: 25px;
+    font-weight: 500;
+}
+
+.icon1{
+   
+}
+
+.text-section .icon-section{
+    width:10%;
+    padding-left: 2rem;
+    padding-top: 7rem;
+   
+}
+
+.icon-section i{
+    font-size: 24px;
+    color: #1977cc;
+    float: left;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid    #d6e9fa; 
+}
+
+.icon-section  i:hover{
+    color: #fff;
+    background: var(--stylecolor);
+}
+
+.text-section .right-section{
+    width:88%;
+    padding-top: 7rem;
+}
+
+.text-section .right-section h2{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.text-section .right-section h3{
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #444444;
+}
+
+/*  video   ends  */
+
+
+
+/*   counter  starts  */
+.counter{
+    width:100%;
+     margin-top: 50px;
+     background-color:#f1f7fd;
+     padding: 5rem;
+}
+
+.counter .counter-section{
+    width:23%;
+    background-color: #fff;
+    padding: 3rem 3rem;
+    box-shadow: 0px 2px 15px rgb(25 119 204 / 10%);
+    text-align: center;
+
+}
+
+.counter .counter-section span{
+    width:50px;
+    height:50px;
+    font-size: 2.4rem;
+    background-color: var(--stylecolor);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    color: #fff;
+    margin-top: -55px;
+}
+
+.counter-section .count{
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+
+.counter-section p{
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+
+/*   counter  ends  */
+
+
+/*     services-section  starts  */
+.services-section{
+    width:100%;
+    margin-top: 50px;
+
+}
+
+ .center-text{
+    text-align: center;
+
+}
+
+ .center-text h2{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: var(--stylecolor3);
+
+}
+
+ .center-text h2::before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+  }
+  
+   .center-text h2::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #1977cc;
+    bottom: 0;
+    left: calc(50% - 20px);
+  }
+  
+ .center-text p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: var(--stylecolor2);
+    line-height: 25px;
+
+}
+
+.services-section .three-section{
+    width:32%;
+    transition: all 0.5s;
+    background: #fff;
+    box-shadow: 0px 2px 15px rgb(25 119 204 / 10%);
+    padding: 7rem 3rem;
+    text-align: center;
+    border: 1px solid  #ddd;
+    margin-bottom: 2rem;
+}
+
+.services-section  .three-section i{
+    font-size: 3rem;
+    width: 64px;
+    height: 64px;
+    background: var(--stylecolor);
+    border-radius: 5px;
+    transition: all 0.3s ease-out 0s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    transform-style: preserve-3d;
+    margin: 0 auto;
+    color: #fff;
+
+}
+
+.services-section .three-section i:hover{
+    background: #fff;
+    color: var(--stylecolor);
+}
+
+
+.services-section .three-section:hover{
+    background-color: var(--stylecolor);
+    color: #fff;
+}
+
+.services-section .three-section  h1{
+    padding-top: 1.3rem;
+    font-size: 2.4rem;
+}
+
+
+.services-section .three-section  p{
+    padding: 2rem  0;
+    font-size: 1.4rem;
+    line-height: 20px;
+    font-weight: 500;
+}
+/*     services-section  ends   */
+
+
+/*   form  action  starts */
+.background1{
+    background-color:#d6e9fa;
+    padding: 3rem;
+}
+
+.Appoint  .form-section .flexbox1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+}
+
+
+.Appoint  .form-section .flexbox1 input{
+    width:30%;
+    height:42px;
+    margin-top: 2rem;
+    padding-left: 2rem;
+    border: none;
+    font-size: 1.5rem;
+    border: none;
+    border: 1px solid  #ced4da;
+
+}
+
+.Appoint  .form-section textarea{
+    width:100%;
+    margin-top: 3rem;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    border: none;
+    font-size: 1.5rem;
+    border: none;
+    border: 1px solid  #ced4da;
+}
+
+
+.Appoint  .form-section .flexbox1  select{
+    width:30%;
+    height:42px;
+    margin-top: 2rem;
+    padding-left: 2rem;
+    border: none;
+    border: 1px solid var(--stylecolor2);
+    font-size: 1.5rem;
+    border: none;
+
+}
+
+.Appoint .form-section .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 2rem;
+  
+
+}
+
+/*   form  action ends */
+
+/*  Doctors starts  */
+.Doctors .Walter-section{
+    width:48%;
+    box-shadow: 0px 2px 15px rgb(44 73 100 / 8%);
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.Walter-section .img1{
+    width:30%;
+    overflow: hidden;
+}
+
+.Walter-section  .img1 img{
+    width:100%;
+    border-radius: 100%;
+    transition: all  0.3s;
+    overflow: hidden;
+}
+
+.Walter-section .img1:hover  img{
+  transform: scale(1.1);
+}
+
+.Walter-section .Chief{
+    width:65%;
+}
+
+.Walter-section  .Chief  h2{
+    font-size: 2rem;
+   
+}
+
+.Walter-section  .Chief h3{
+    font-size: 1.6rem;
+    margin-top: 1rem;
+   font-weight: 500;
+}
+
+hr{
+    width:12%;
+   margin: 10px 0;
+   font-weight: 200;
+}
+
+.Walter-section .Chief  h4{
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    font-weight: 500;
+}
+
+.Walter-section .Chief .social-links{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  
+}
+
+.Walter-section .Chief .social-links a {
+    transition: ease-in-out 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    width: 32px;
+    height: 32px;
+    background: #a0bcd5;
+    margin-left: 1rem;
+    
+}
+
+.Walter-section .Chief .social-links a:hover{
+    background: #1977cc;
+    
+}
+
+
+.Walter-section .Chief  .social-links  a i{
+    color: #fff;
+   
+}
+/*  Doctors ends */
+
+/*   department-section    starts  */
+.Departments{
+    margin-top: 40px;
+}
+.department-section  .tab-container {
+    width:100%;
+
+}
+
+.tab-container  .control{
+    width:18%;
+}
+
+.tab-container  .control{
+    border: 0;
+    padding: 12px 15px 12px 0;
+    transition: 0.3s;
+    color: #2c4964;
+    border-radius: 0;
+    border-right: 2px solid #ebf1f6;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.tab-container  .control li{
+   margin-top: 20px;
+   font-size: 1.6rem;
+   list-style: none;
+   font-weight: 800;
+   color: #444444;
+}
+
+.tab-container  .content{
+    width:79%;
+}
+
+
+.content  .content-section{
+    width:65%;
+}
+
+
+.content  .content-section h1 {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #2c4964;
+}
+
+.content  .content-section h2 {
+    font-size: 14px;
+    color: #777777;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.content  .content-section h2:last-child {
+    margin-bottom: 0;
+}
+
+.content  .content-section h3 {
+    color: #777777;
+    font-size: 14px;
+    margin-top: 20px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+
+.content  .imag{
+    width:33%;
+}
+
+.content .imag img{
+    width:100%;
+    height: 100%;
+}
+
+.box1,.box2,.box3,.box4,.box5{
+    display: none;
+}
+
+.active{
+    display: block;
+
+}
+
+.active{
+    display: flex;
+}
+
+/*   department-section    ends  */
+.Frequently{
+    background:#f1f7fd;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    padding-bottom: 10rem;
+  
+}
+
+.container{
+    margin: 20px auto;
+    max-width: 700px;
+}
+
+.container .accordion-container .accordion{
+    margin-bottom: 20px;
+   cursor: pointer;
+}
+
+.container .accordion-container .accordion .accordion-content{
+    display: block;
+}
+
+.container .accordion-container .accordion  .accordion-heading h3{
+    font-size: 1.5rem;
+
+}
+
+.container .accordion-container .accordion  .accordion-heading i{
+    font-size: 1.5rem;
+
+}
+
+.container .accordion-container .accordion  .accordion-content{
+    background-color: #fff;
+    font-size: 1.2rem;
+    padding: 0 20px;
+    display: none;
+}
+/*   Frequently starts */
+
+
+
+
+/*  caousel   starts  */
+ .Walter-section1{
+    width:48%;
+    box-shadow: 0px 2px 15px rgb(44 73 100 / 8%);
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.Walter-section1 .img2{
+    width:30%;
+    overflow: hidden;
+}
+
+.Walter-section1  .img2 img{
+    width:100%;
+    border-radius: 100%;
+    transition: all  0.3s;
+    overflow: hidden;
+}
+
+.Walter-section1 .Chief1{
+    width:65%;
+}
+
+.Walter-section1  .Chief1  h3{
+    font-size: 2rem;
+   
+}
+
+.Walter-section1  .Chief1 h4{
+    font-size: 1.6rem;
+    margin-top: 0.3rem;
+   font-weight: 300;
+}
+
+
+.Walter-section1 .Chief1  p{
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+/*  caousel  ends  */
+
+
+/*    gallery  starts  */
+.wrapper{
+    width:100%;
+     color: #1977cc;
+}
+
+.gallery .image{
+    width:calc(100% / 4);
+    padding: 0.2rem;
+    position: relative;
+}
+
+.gallery  span{
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+.gallery .image img{
+    width:100%;
+    vertical-align: middle;
+    transition: all 0.3s ease;
+}
+
+.gallery .image:hover  img{
+    transform: scale(1.1);
+}
+
+.full-img{
+    width:100%;
+    height:100vh;
+    background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top:0;
+    left:0;
+    display: flex;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 999999;
+}
+
+.full-img img{
+    width: 90%;
+    max-width: 500px;
+}
+
+.full-img span{
+    position: absolute;
+    left: 95%;
+    bottom: 0;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+    color:#fff;
+    cursor: pointer;
+}
+
+.activ{
+    display: flex;
+}
+
+/*    gallery  ends  */
+
+/*  contact  starts  */
+.contact{
+    margin-top: 50px;
+}
+
+.contact-section .icon-box{
+    width:40%;
+    margin-top: 2rem;
+}
+
+.icon-box .left{
+    width:10%;
+}
+
+.icon-box .left span{
+    font-size: 23px;
+    color: #1977cc;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #d6e9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+.icon-box .left span:hover{
+    background-color: var(--stylecolor);
+    color:#fff;
+}
+
+.icon-box .right{
+    width:89%;
+}
+
+
+.icon-box .right h1{
+    font-size: 2.2rem;
+    margin-top: 0.1rem;
+}
+
+.icon-box  .right  p{
+    font-size: 1.5rem;
+    margin-top: 0.7rem;
+    color: var(--stylecolor);
+}
+
+
+.contact-section .form-section{
+    width:60%;
+}
+
+.contact-section  .form-section input{
+    width:100%;
+    height:42px;
+    margin-top: 2rem;
+    padding-left: 2rem;
+    border: none;
+    border: 1px solid var(--stylecolor2);
+    font-size: 1.5rem;
+}
+
+.contact-section  .form-section input:hover{
+    border: 1px solid  var(--stylecolor);
+  
+}
+
+.contact-section  .form-section .flexbox1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+}
+
+.contact-section  .form-section .flexbox1  input{
+    width:48%;
+   
+}
+
+.contact-section .form-section textarea{
+    width:100%;
+    margin-top: 2rem;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    border: none;
+    border: 1px solid var(--stylecolor2);
+}
+
+.contact-section .form-section textarea:hover{
+    border:1px solid  var(--stylecolor)
+   
+}
+
+  #send {
+    width:20%;
+    height:42px;
+    border: none;
+    background-color: var(--stylecolor);
+    color:#fff;
+    transition: all  0.3s;
+}
+
+/*  contact  ends */
+
+/*  footer-section  */
+.footer-section{
+    width:100%;
+    box-shadow: 0px 2px 15px rgb(44 73 100 / 8%);
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.footer-section  .ul-section  .first h1{
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+
+.footer-section  .ul-section .first p{
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    font-family: "Raleway", sans-serif;
+    color:#777777;
+    margin-top: 1.3rem;
+}
+
+.footer-section  .ul-section .first h3{
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Raleway", sans-serif;
+    color:#777777;
+    font-weight: 200;
+}
+
+.footer-section  .ul-section .first h3 span{
+   font-weight: 700;
+}
+
+.footer-section .ul-section .second h1{
+    font-size: 16px;
+   
+}
+
+.footer-section .ul-section .second ul{
+  margin-top: 1.3rem;
+   
+}
+
+.footer-section .ul-section .second ul  li{
+    margin-top: 1.9rem;
+    font-size: 1.3rem;
+    color: #1977cc;
+    font-weight: 600; 
+  }
+
+  .footer-section .ul-section .second ul  li  a{
+    color: #777777;
+    font-weight: 500;
+  }
+
+  .footer-section  .ul-section .footer-newsletter h4{
+    font-size: 16px;
+    font-weight: bold;
+    color: #444444;
+    position: relative;
+    padding-bottom: 12px;
+
+  }
+
+  .footer-section  .ul-section .footer-newsletter p{
+        margin-top: 0;
+        margin-bottom: 1rem;
+        font-size: 1.4rem;
+        line-height: 2rem;
+  }
+
+
+  .footer-section .ul-section  .footer-newsletter form{
+        margin-top: 30px;
+        background: #fff;
+        padding: 6px 10px;
+        position: relative;
+        border-radius: 50px;
+        text-align: left;
+        border: 1px solid #bfdcf7;
+    }
+
+   .footer-section .ul-section .footer-newsletter form input[type=email] {
+        border: 0;
+        padding: 4px 8px;
+        width: calc(100% - 100px);
+    }
+
+    .footer-section .ul-section .footer-newsletter form input[type=submit] {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        border: 0;
+        background: none;
+        font-size: 16px;
+        padding: 0 20px;
+        background: #1977cc;
+        color: #fff;
+        transition: 0.3s;
+        border-radius: 50px;
+    }
+
+
+    .last-section{
+        background:#f1f7fd;
+    }
+
+    .last-section  .rever  h1{
+       font-size: 1.3rem;
+       font-weight: 500;
+       line-height: 22px;
+    }
+
+    .last-section .socail  a{
+            font-size: 18px;
+             display: inline-block;
+            background: #1977cc;
+            color: #fff;
+            line-height: 1;
+            padding: 8px 0;
+            margin-right: 4px;
+            border-radius: 50%;
+            text-align: center;
+            width: 36px;
+            height: 36px;
+            transition: 0.3s;
+        }
+
+
+/*   medai queary   */
+@media(max-width:1390px){
+    html{
+        font-size: 55%;
+    }
+
+    .choose-section{
+        padding:0  4rem;
+    }
+
+    .wrapper{
+      padding: 2rem;
+    }
+
+    #container .heading{
+        margin-top: 8rem;
+        margin-left: 8rem;
+    }
+
+    .master{
+        padding: 2rem 3rem;
+    }
+    
+    .icon-box .left {
+       margin-top: 3rem;
+    }
+
+    .icon-box .right {
+      padding-left: 4rem;
+      margin-top: 3rem;
+    }
+    
+
+    .contact-section{
+        padding: 0 4rem;
+        margin-top: 3rem;
+    }
+}
+
+@media(max-width:1100px){
+    html{
+        font-size: 55%;
+    }
+     
+    .choose-section{
+        margin-top: 30px;
+        padding: 0 40px;
+    }
+
+    .choose-section  .four-section1{
+        width:48%;
+        position: relative;
+        top:0;
+        margin-top: 10px;
+    }  
+
+
+    .choose-section  .four-section{
+        width:48%;
+        position: relative;
+        top:0;
+        margin-top: 30px;
+       
+    }
+    .gallery .image{
+        width:calc(100% / 3);
+        padding: 0.2rem;
+    }
+
+    .video-section .video-box{
+        width: 100%;
+    }
+    
+    .video-section .text-section{
+        width: 100%;
+    }
+
+}
+
+
+@media(max-width:780px){
+    html{
+        font-size: 55%;
+    }
+     
+    .choose-section{
+        margin-top: 30px;
+        padding: 0 50px;
+        
+    }
+
+    .choose-section  .four-section1{
+        width:100%;
+        position: relative;
+        top:0;
+        margin-top: 10px;
+        
+    }  
+
+    .choose-section  .four-section{
+        width:100%;
+        position: relative;
+        top:0;
+        margin-top: 40px;
+       
+    }
+
+    .gallery .image{
+        width:calc(100% / 2);
+        padding: 0.2rem;
+    }
+
+    #send {
+        width: 30%;
+    }
+
+    .last-section{
+        text-align: center;
+        margin-top: 3rem;
+    }
+
+    .last-section  .rever{
+       width:100%;
+     }
+ 
+     .last-section .socail{
+         width: 100%;
+         margin-top: 2rem;
+            
+    }
+    .last-section .rever h1 {
+        font-size: 1.6rem;
+        line-height: 20px;
+    }
+}
+
+@media(max-width:350px){
+    html{
+        font-size: 55%;
+    }
+     
+    .choose-section{
+        padding: 0 10px;
+        
+    }
+    .text-section .right-section{
+        padding-left: 5rem;
+    }
+
+    .text-section .icon-section{
+        padding-left: 1rem;
+    }
+    
+}
+
+
+@media(max-width:420px){
+    html{
+        font-size: 55%;
+    }
+     
+    .choose-section{
+        padding: 0 15px;
+        
+    }
+}
+
+
+
+  @media(max-width:991px){
+  html{
+       font-size: 55%;
+  }
+
+ header{
+    padding: 2rem;
+ }
+
+ /*   counter  starts  */
+.counter .counter-section{
+    width:45%;
+    margin-top: 5rem;
+}
+
+/*   counter  ends  */
+.services-section{
+     padding: 0rem 4rem;
+}
+
+ .services-section .three-section{
+     width:48%;
+}
+
+.Doctors{
+    padding: 0rem 5rem;
+}
+
+.Doctors .Walter-section{
+    width:100%;
+}
+
+.Departments{
+    padding: 0 9rem;
+    margin: 0 auto;
+    margin-top: 4rem;
+}
+
+.wrapper {
+    margin-top: 4rem;
+   
+}
+
+.tab-container  .control{
+    width:100%;
+}
+
+.tab-container  .content{
+    width:100%;
+}
+
+.content  .content-section{
+    width:100%;
+}
+
+.content  .imag{
+    width:100%;
+    margin-top: 4rem;
+}
+
+.content .imag img{
+    width:80%;
+    height: 80%;
+}
+
+#container .heading h1{
+    font-size: 4rem;
+  }
+  
+  #container .heading h2{
+      font-size:2rem;
+    
+  }
+
+  .video-section .video-box{
+    width: 100%;
+}
+
+.video-section .text-section{
+    width: 100%;
+    padding: 3rem 2rem;
+}
+
+.text-section .icon-section{
+    width:10%;
+    padding-left: 2rem;
+}
+
+.text-section .right-section{
+    width:88%;
+}
+
+.contact-section .icon-box {
+    width: 100%;
+}
+
+.contact-section .form-section{
+    width:100%;
+}
+
+.contact-section .form-section .flexbox1 {
+ margin-top: 5rem;
+}
+
+.contact-section {
+    padding: 0 3rem;
+}
+
+.footer-section  .ul-section .first{
+  width:50%;
+}
+
+.footer-section  .ul-section .second{
+    width:50%;
+  }
+
+  .footer-section  .ul-section .second{
+    width:50%;
+    margin-top: 3rem;
+  }
+
+  .footer-section  .ul-section .footer-newsletter{
+    width:50%;
+    margin-top: 3rem;
+  }
+
+  .video-section {
+    margin-top: 6rem;
+}
+
+ .background1{
+    margin-top: 3rem;
+}
+
+.icon-box .right {
+    padding-left: 2rem;
+    margin-top: 3rem;
+}
+}
+
+
+  @media(max-width:768px){
+   #menu{
+       display: initial;
+}
+
+       header .navbar{
+           position: absolute;
+           top:100%;
+           left:0;
+           right:0;
+           background-color: #fff;
+           clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+       }
+       header .navbar.active{
+        clip-path: polygon(0  0, 100% 0, 100% 100%, 0% 100%);
+    }
+    
+       
+       header .navbar  ul{
+           width:100%;
+          display: inline-block;
+    } 
+
+
+       header  .navbar a{
+           margin: 1.5rem;
+           padding: 1.5rem;
+           display: block;
+           border: .2rem solid rgba(0, 0, 0, .1);
+           border-left: .5rem solid var(--stylecolor);
+           background: #fff;
+       }
+
+      /*   counter  starts  */
+      .counter{
+          padding:3rem 10rem;
+      }
+      .counter .counter-section{
+         width:100%;
+         margin-top: 5rem;
+
+}
+
+/*   counter  ends  */
+
+   .services-section{
+      padding: 0rem 6rem;
+}
+   .services-section .three-section{
+      width:100%;
+}
+
+
+.Departments{
+    padding: 0 8rem;
+    margin: 0 auto;
+}
+
+.content .imag img{
+    width:90%;
+    height: 90%;
+}
+
+#container .heading h1{
+    font-size: 3rem;
+  }
+  
+  #container .heading h2{
+      font-size:1.6rem;
+    
+  }
+
+  .video-section .text-section{
+    width: 100%;
+}
+
+.text-section .icon-section{
+    width:10%;
+    padding-left: 1rem;
+}
+
+.text-section .right-section{
+    width:81%;
+}
+
+.text-section .right-section h2{
+    font-size: 2rem;
+}
+
+.text-section .right-section h3{
+    font-size: 1.7rem;
+}
+
+.video-section .text-section h1 {
+    font-size: 2.9rem;
+}
+
+.contact-section .form-section .flexbox1 input {
+    width: 100%;
+}
+
+.contact-section .form-section .flexbox1 input {
+    width: 100%;
+}
+.contact-section {
+    padding: 0 2rem;
+}
+
+.footer-section  .ul-section .second{
+    width:100%;
+  }
+
+  .footer-section  .ul-section .second{
+    width:100%;
+    margin-top: 3rem;
+  }
+
+  .footer-section  .ul-section .footer-newsletter{
+    width:100%;
+    margin-top: 3rem;
+  }
+
+  .footer-section  .ul-section{
+    padding: 0rem 3rem;
+  }
+
+  .center-text p {
+   padding:0 2rem;
+}
+
+.Appoint .form-section .flexbox1 input {
+    width: 100%;
+}
+
+.Appoint .form-section .flexbox1 select {
+    width: 100%;
+}
+
+.active{
+    display:block;
+
+}
+.active-button{
+    padding: 0.6rem 1rem;
+    background-color: #1977cc;
+}
+
+
+@media(max-width:400px){
+    html{
+        font-size: 50%;
+    }
+
+    .counter{
+        padding:3rem 3rem;
+    }
+
+    #container .heading h1{
+        font-size: 2.3rem;
+      }
+
+      #container .heading{
+        margin-left: 5rem;
+    }
+
+    .text-section .right-section h3{
+        font-size: 1.7rem;
+        line-height: 20px;
+    }
+        
+}
+
+
+@media(max-width:500px){
+    .gallery .image{
+        width:calc(100% / 1);
+        padding: 0.2rem;
+    }
+
+    .counter{
+        padding:3rem 3rem;
+    }
+
+    .services-section{
+        padding: 0rem 3rem;
+    }
+
+    .Doctors{
+        padding: 0rem 3rem;
+    
+    }
+
+    .Departments{
+        padding: 0 4rem;
+        margin: 0 auto;
+    }
+    
+    .content .imag img{
+        width:100%; 
+        height: 100%;
+    }
+
+    .master{
+        padding: 2rem 2rem;
+    }
+
+    .logo   i {
+        font-size: 1.1rem;
+}   
+
+
+  .master .right-sides span{
+      padding-left:1rem;
+      font-size: 1.1rem;
+   
+}  
+
+.text-section .right-section{
+    padding-left: 2.3rem;
+}
+
+.video-section .text-section h1 {
+    font-size: 2.4rem;
+}
+
+.video-section .text-section p {
+    font-size: 1.7rem;
+    line-height: 22px;
+}
+
+.contact-section {
+    padding: 0 0rem;
+}
+
+#send {
+    width: 140px;
+}
+
+.contact-section {
+    padding: 0 2.5rem;
+}
+
+.center-text h2 {
+    font-size: 25px;
+}
+
+.icon-box .right {
+    padding-left: 4rem;
+    margin-top: 3rem;
+}
+
+}
+
+
+@media(max-width:330px){
+    html{
+        font-size: 55%;
+    }
+     
+    .choose-section{
+        padding: 0 10px;
+        
+    }
+    .text-section .right-section{
+        padding-left: 6rem;
+    }
+
+    .text-section .icon-section{
+        padding-left: 1rem;
+    }
+    
+}
